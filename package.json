@@ -1,0 +1,25 @@
+{
+  "name": "tib-docs-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The TIB Finance API documentation for AI coding agents: a read-only MCP server that reads the public pages of doc.tib.finance.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43",
+    "esbuild": "0.28.2",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}

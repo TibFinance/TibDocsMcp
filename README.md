@@ -62,6 +62,8 @@ claude mcp add --scope user tib-docs -- node "C:\Users\me\tools\tib-docs-mcp.mjs
 }
 ```
 
+Older VS Code versions read `.vscode/mcp.json` instead, with the key `servers` in place of `mcpServers`.
+
 For all your workspaces, run the command **MCP: Add Server**, choose **Command (stdio)**, and enter
 `node "C:\Users\me\tools\tib-docs-mcp.mjs"`.
 
